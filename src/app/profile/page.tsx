@@ -79,7 +79,7 @@ const ProfilePage = () => {
         </div>
 
         <div className="overflow-hidden rounded-3xl border border-gray-100 bg-white shadow-sm">
-          <div className="h-28 bg-gradient-to-r from-green-100 via-green-50 to-white sm:h-36" />
+          <div className="h-28 bg-linear-to-r from-green-100 via-green-50 to-white sm:h-36" />
 
           <div className="px-5 pb-6 sm:px-8 sm:pb-8">
             <div className="-mt-12 flex flex-col gap-4 sm:-mt-14 sm:flex-row sm:items-end">
