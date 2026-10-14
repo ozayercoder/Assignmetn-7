@@ -20,6 +20,7 @@ const AllProducts = ({ products }: { products: IProduct[] }) => {
         ))}
       </div>
     </section>
+    // git comment 
   );
 };
 
