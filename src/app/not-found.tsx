@@ -40,14 +40,6 @@ const NotFoundPage = () => {
               Back to Home
               <FiArrowUpRight size={17} />
             </Link>
-
-            <Link
-              href="/"
-              className="inline-flex items-center justify-center gap-2 rounded-xl border border-green-200 bg-white px-6 py-3.5 text-sm font-bold text-green-700 transition duration-300 hover:bg-green-50 active:scale-95"
-            >
-              <FiArrowLeft size={17} />
-              Explore Bazar Dor
-            </Link>
           </div>
 
           <p className="mt-6 text-xs text-gray-400">
