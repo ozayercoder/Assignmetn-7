@@ -1,5 +1,4 @@
 import { IProduct } from "@/types/type";
-import React from "react";
 import ProductCard from "./ProductCard";
 
 const PriceFallers = ({ products }: { products: IProduct[] }) => {
@@ -9,10 +8,7 @@ const PriceFallers = ({ products }: { products: IProduct[] }) => {
     .slice(0, 6);
   return (
     <div>
-      <section
-        id="allproducts"
-        className="container mx-auto my-8 px-4 md:my-10"
-      >
+      <section className="container mx-auto my-8 px-4 md:my-10">
         <div className="mb-6 border-b border-green-100 pb-4">
           <h2 className="text-xl font-bold text-gray-900 md:text-3xl">
             <span className="text-green-600 text-xl">▼</span> আজ দাম কমেছে
