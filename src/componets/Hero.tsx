@@ -1,5 +1,4 @@
 import Image from "next/image";
-import Link from "next/link";
 import { FiArrowUpRight } from "react-icons/fi";
 
 const Hero = () => {
